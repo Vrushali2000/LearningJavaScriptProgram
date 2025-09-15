@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Example</title>
+</head>
+<body>
+    <h1>DOM example</h1>
+    <div id="one">
+        <p>This is a dom example</p>
+        <p>This is one more dom example</p>
+        <p>This is another dom example</p>
+</div>
+    
+    <script>
+        //document.getElementById("one").style.color = "red";
+        //var ps = document.getElementsByTagName("p");
+        //var ps = document.getElementsByClassName("special");
+        var ps = document.querySelectorAll("#one p");
+        for (var i = 0; i < ps.length; i++) {
+            ps[i].style.color = "red";
+            //alert(`showing paragraph ${i}`);
+        }
+    </script>
+</body>
+</html>
