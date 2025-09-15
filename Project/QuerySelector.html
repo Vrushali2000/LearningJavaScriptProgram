@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QuerySelector Example</title>
+</head>
+<body>
+    <h1>QuerySelector Demo</h1>
+    <div id="query">
+        <p>This is a dom example</p>
+        <p>This is one more dom example</p>
+        <p>This is another dom example</p>
+    </div>
+    
+
+    <script>
+        var queryDiv = document.querySelector('#query');
+        queryDiv.innerHTML = 'Changed using querySelector';
+    </script>
+</body>
+</html>
