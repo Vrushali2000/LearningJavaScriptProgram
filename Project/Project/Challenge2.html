@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript Basic Challenges:Challenge2</title>
+</head>
+<body>
+    <h1>javaScript Basic Challenges</h1>
+    <h2>Challenge 2</h2>
+    <script>
+    /*var firstName= 'Vrushali';
+    var lastName= 'Nagpure';
+    var adjective= 'is a silent person'
+    console.log(`${firstName} ${lastName} ${adjective}`);*/
+
+    function justnum(){
+    var number= prompt("Enter a whole number");
+    
+    if(number<10){
+        console.log("You entered a number smaller than 10");
+        for(var i=0; i<10; i++){
+        if(number==i){
+            console.log(`Here is a ${i} <--- this is your number!`);
+        }
+        else{
+            console.log(`Here is a ${i}`);
+        }
+        }
+        
+    }else if(number>=10){
+    console.log("You entered a big number");
+    }
+    else{
+        console.log("ERROR: You didn't enter a number!");
+    }
+}
+justnum();
+   /*var colour=prompt("Pick your colour");
+   var uppercaseColour=colour.toUpperCase();
+   if(colour='blue'||(colour='red')||(colour='yellow')){
+    console.log(`You picked a primary colour:${colour}`);
+   }
+   else if(colour='orange'||(colour='green')||(colour='purple')){
+    console.log(`You picked a secondary colour:${colour}`);
+   }
+   else if(uppercaseColour='BLUE'||(uppercaseColour='RED')||(uppercaseColour='YELLOW')){
+    console.log(`You picked a primary colour:${uppercaseColour}`);
+   }
+   else if(uppercaseColour='ORANGE'||(uppercaseColour='GREEN')||(uppercaseColour='PURPLE')){
+    console.log(`You picked a secondary colour:${uppercaseColour}`);
+   }
+   else{
+    console.log('ERROR:Its neither a primary or a secondary colour');
+   }*/
+
+
+    </script>
+</body>
+</html>
